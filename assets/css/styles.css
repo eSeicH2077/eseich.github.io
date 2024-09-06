@@ -1,0 +1,171 @@
+
+:root {
+	--font_14:0.875rem;
+	--font_16:1rem;
+	--font_30:1.875rem;
+	--font_36:2.25rem;
+	--font_48:3rem;
+	--40:2.5rem;
+	--30:1.875rem;
+	--margin_30:1.875rem;
+	--margin-54:3.375rem;
+	--margin-60:3.75rem;
+	--margin-100:6.25rem;
+	--margin-120:7.5rem;   
+}
+html {font-family: 'Poppins', sans-serif;background-color:#2A2A2A}
+body {font-family: 'Poppins', sans-serif;overflow-x: hidden; background-color:#2A2A2A; font-weight:400;font-style: normal; color: #FFF; font-size: var(--font_14)}
+a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
+a{color: #000}
+iframe {border: 0;outline: none;}
+::-moz-selection {background: var(--red);text-shadow: none;color:var(--white)}
+::selection {background:var(--red);text-shadow: none;color:var(--white)}
+img {max-width: 100%;border: none;outline: none;height: auto;}
+input,textarea {border-radius: 0;resize: none;}
+ul {padding: 0;margin: 0;}
+@font-face {
+font-family: 'DM Serif Display', serif;
+font-family: 'Poppins', sans-serif;}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: transparent;background-image: none;color:#000;}
+
+h1,h2,h3,h4,h5,h6 {font-family: 'DM Serif Display', serif;}
+figure{ margin: 0 }
+svg,img { max-width: 100%; height: auto; }
+
+
+.header {
+	padding-top: 2.5rem;
+	padding-bottom: 7.8125rem;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+.logo a {
+	padding: 0 0.75rem;
+	margin: 0 auto;
+	float: left;
+	width: 150px;
+	height: auto;
+	position:relative;
+}
+
+.topimg {
+	position:absolute;
+	left:0;
+	top:0;
+	padding: 0 0.75rem;
+	margin: 0 auto;
+	opacity:0;
+	width: 150px;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.topimg:hover {
+	opacity: 1;
+}
+  
+  .logo a:hover {
+	color: #CBFE00;
+	transition: all 0.5s ease;
+  }
+
+
+.menu {
+	list-style: none;
+	padding-left: 10rem;
+	display: flex;
+	justify-content: flex-end;
+	gap: 2rem;
+	margin-top: 0.275rem;
+}
+
+.section {
+	color: #CBFE00;
+	font-weight: 600;
+	font-size: 1.125rem;
+	text-align: center;
+	padding: 0 0.4375rem;
+}
+
+.menu a:hover {
+	color: #ffffff;
+}
+
+----------------------------------------------------------------*/
+.banner{ margin-bottom: 8.125rem }
+.banner-hed{ font-size: 5.3125rem; line-height:5rem  }
+.image-shadow{box-shadow:30px 30px #C7F900;}
+
+.social{ list-style: none; display: flex; align-items: center;margin-top: 2.5rem }
+.social li{ margin-right: 15px }
+.social li:alst-child{ margin-right: 0 }
+.social a{ width: 30px; height: 30px; background-color: #CBFE00; border-radius: 100%; text-align: center; display: flex; justify-content: center; align-items: center; font-size:1.25rem; color:#2A2A2A }
+.social li:hover a{background-color: #ffffff; color:#000;	transition: all 0.5s ease;}
+
+.banner figure{width: 370px; position: relative;}
+.banner figure figcaption{ color: #FFF; font-size:1.875rem; position: absolute; bottom: 0; width: 100%; text-align: center; padding-bottom:2.5rem  }
+
+.resume-section{ background-color: #000; padding: 7.5rem 0 }
+.resume-section h2{ font-size: 2.5rem; line-height: 3.375rem; width: 100%;max-width: 80%;margin: 0 }
+.resume-section p{ color:#9C9C9C; font-size: 1rem; line-height: 1.875rem }
+
+.projects-section{padding: 7.5rem 0 }
+.projects-section h2{ font-size: 2.5rem; line-height: 3.375rem; width: 100%;max-width:40%;margin: 0}
+.projects-section h2 span{ display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; color: #CBFE00; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
+
+.projects-listing-section{ margin-top:5rem }
+.projects-loop figure{ margin-right: 60px; position: relative; }
+.projects-loop:hover figure img.image-shadow{box-shadow:20px 20px #C7F900;}
+.link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 1.75rem; height: 1.75rem; border-radius: 3px; background-color: #000; display: block; justify-content: center; align-items: center; color: #CBFE00; font-size: 1.125rem; text-align: center; opacity: 0 }
+.projects-loop:hover .link-button{ opacity: 1 }
+.link-button:hover{background-color: #ffffff; color:#000;	transition: all 0.5s ease;}
+.projects-loop section{ margin-top: 5.875rem; margin-bottom: 5.875rem; }
+.projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #CBFE00;}
+.projects-loop section span{font-size: 1rem; font-weight: 400; }
+
+.email-section{padding: 7.5rem 0; background-color: #CBFE00; text-align: center;}
+.email-section h2{ font-size: 3.75rem;color: #000; margin-bottom: 1.875rem }
+.email-section a{ font-size:1.25rem; font-weight: 500; text-decoration: underline;  }
+.email-section a:hover{background-color: #ffffff; color:#000;	transition: all 0.5s ease;text-decoration: none; }
+
+.footer{ padding: 2.5rem 0; text-align: center; color: #CECECE; font-size: 1.25rem }
+.footer a{color: #CECECE }
+.footer a:hover{color: #CECECE; text-decoration: underline; }
+
+@media (max-width: 767px) {
+	.header {padding-top: 2.5rem;padding-bottom:2.5rem;}
+	.logo{position: absolute; top: 5; left: 50%; transform: translateX(-50%); }
+	.section{font-size: 1rem;margin-top: 4rem;padding: 2rem;text-align: center;}
+	.banner-hed {font-size: 2.3125rem;line-height: 3rem;}
+	.banner .container{ position: relative; padding-bottom: 90px }
+	.social{ position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
+	.banner figure{ width: 90%; margin: 0 auto; margin-top: 40px }
+	.image-shadow {box-shadow:20px 20px #c7f900;}
+	.banner {margin-bottom: 3.5rem;}
+	.resume-section,.projects-section,.email-section{ padding: 3.5rem 0 }
+	.resume-section h2,.projects-section h2{ max-width: 100% }
+	.projects-section h2 span{ margin-bottom: 0 }
+	.projects-listing-section {margin-top: 3rem;}
+	.projects-loop section{margin-top: 2.875rem;}
+	.projects-loop figure{ margin-right: 20px }
+	.projects-loop{margin-bottom: 3.5rem;}
+	.projects-loop:last-child{ margin-bottom: 0 }
+	.email-section h2{ font-size: 2rem }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.header{padding-bottom: 3.8125rem;}
+.banner-hed{font-size: 3.3125rem;line-height: 4rem;}
+.banner figure{ margin-right: 1.875rem }
+.projects-section h2{ max-width: 60% }
+.projects-loop figure{ margin-right: 40px }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.banner figure{ margin-right: 1.875rem }
+
+}
