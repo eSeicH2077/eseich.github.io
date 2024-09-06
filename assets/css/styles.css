@@ -138,7 +138,8 @@ svg,img { max-width: 100%; height: auto; }
 @media (max-width: 767px) {
 	.header {padding-top: 2.5rem;padding-bottom:2.5rem;}
 	.logo{position: absolute; top: 5; left: 50%; transform: translateX(-50%); }
-	.section{font-size: 1rem;margin-top: 4rem;padding: 2rem;text-align: center;list-style: none;display: flex;justify-content: flex-end;gap: 1rem;}
+	.menu{margin-left:2rem;margin-right:2rem;padding:2rem;}
+	.section{font-size: 1rem;margin-top: 4rem;padding: 2rem;text-align: center;}
 	.banner-hed {font-size: 2.3125rem;line-height: 3rem;}
 	.banner .container{ position: relative; padding-bottom: 90px }
 	.social{ position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
