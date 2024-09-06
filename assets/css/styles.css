@@ -103,7 +103,7 @@ svg,img { max-width: 100%; height: auto; }
 .social li{ margin-right: 15px }
 .social li:alst-child{ margin-right: 0 }
 .social a{ width: 30px; height: 30px; background-color: #CBFE00; border-radius: 100%; text-align: center; display: flex; justify-content: center; align-items: center; font-size:1.25rem; color:#2A2A2A }
-.social li:hover a{background-color: #CBFE00; color:#000 }
+.social li:hover a{background-color: #ffffff; color:#000;transition: all 0.5s ease;}
 
 .banner figure{width: 370px; position: relative;}
 .banner figure figcaption{ color: #FFF; font-size:1.875rem; position: absolute; bottom: 0; width: 100%; text-align: center; padding-bottom:2.5rem  }
@@ -121,6 +121,7 @@ svg,img { max-width: 100%; height: auto; }
 .projects-loop:hover figure img.image-shadow{box-shadow:20px 20px #C7F900;}
 .link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 1.75rem; height: 1.75rem; border-radius: 3px; background-color: #000; display: block; justify-content: center; align-items: center; color: #CBFE00; font-size: 1.125rem; text-align: center; opacity: 0 }
 .projects-loop:hover .link-button{ opacity: 1 }
+.link-button:hover{background-color: #ffffff; color:#000;transition: all 0.5s ease;}
 .projects-loop section{ margin-top: 5.875rem; margin-bottom: 5.875rem; }
 .projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #CBFE00;}
 .projects-loop section span{font-size: 1rem; font-weight: 400; }
@@ -128,7 +129,7 @@ svg,img { max-width: 100%; height: auto; }
 .email-section{padding: 7.5rem 0; background-color: #CBFE00; text-align: center;}
 .email-section h2{ font-size: 3.75rem;color: #000; margin-bottom: 1.875rem }
 .email-section a{ font-size:1.25rem; font-weight: 500; text-decoration: underline;  }
-.email-section a:hover{ color: #000; text-decoration: none; }
+.email-section a:hover{background-color: #ffffff; color:#000;transition: all 0.5s ease;text-decoration: none; }
 
 .footer{ padding: 2.5rem 0; text-align: center; color: #CECECE; font-size: 1.25rem }
 .footer a{color: #CECECE }
