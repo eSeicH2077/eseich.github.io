@@ -129,8 +129,8 @@ svg,img { max-width: 100%; height: auto; }
 
 .email-section{padding: 7.5rem 0; background-color: #CBFE00; text-align: center;}
 .email-section h2{ font-size: 3.75rem;color: #000; margin-bottom: 1.875rem }
-.email-section a{ font-size:1.25rem; font-weight: 500; text-decoration: underline;  }
-.email-section h2:hover{color:#105ccc;	transition: all 0.5s ease;}
+.email-section a{ font-size:1.25rem; font-weight: 500; text-decoration: none;  }
+.email-section h2:hover{color:#ffa464;	transition: all 0.5s ease;}
 
 .footer{ padding: 2.5rem 0; text-align: center; color: #CECECE; font-size: 1.25rem }
 .footer a{color: #CECECE }
