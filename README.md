@@ -1,3 +1,3 @@
-# eseich2077.github.io
+# eseich.github.io
 
-This is a repository for a personal portfoilio website of eSeicH2077.
+This is a repository for a personal portfolio website of eSeicH2077.
