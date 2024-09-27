@@ -104,7 +104,6 @@ svg,img { max-width: 100%; height: auto; }
 	opacity: 1;
 	transform: translateY(0);
   }
-
 ----------------------------------------------------------------*/
 .banner{ margin-bottom: 8.125rem }
 .banner-hed{ font-size: 5.3125rem; line-height:5rem  }
@@ -205,23 +204,25 @@ svg,img { max-width: 100%; height: auto; }
 }
 
 mark {
-	--color1: #ff944c;
-	--color2: #ff944c;
-	--height: 75%;    
-	all: unset;
-	background-image: linear-gradient(var(--color1), var(--color2));
-	background-position: 0 100%;
-	background-repeat: no-repeat;
-	background-size: 0 var(--height);
-	animation: highlight 900ms 1 ease-out;
-	animation-fill-mode: forwards;
-	animation-play-state: paused; 
-  }
-  @keyframes highlight {
-	to {
-	  background-size: 100% var(--height);
-	}
-  }
+    --color1: #ff944c;
+    --color2: #ff944c;
+    --height: 75%;
+    all: unset;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    background-size: 0 var(--height);
+    animation: highlight 900ms 1 ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+	animation-delay: 1s;
+}
+
+@keyframes highlight {
+    to {
+        background-size: 100% var(--height);
+    }
+}
   main {
 	width: min(50ch, 80%);
 	margin: 0 auto;
