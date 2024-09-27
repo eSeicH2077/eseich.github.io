@@ -94,6 +94,17 @@ svg,img { max-width: 100%; height: auto; }
 	color: #000;
 }
 
+.section-item {
+	opacity: 0;
+	transform: translateY(30px);
+	transition: all 0.6s ease-in-out;
+  }
+  
+  .section-item.visible {
+	opacity: 1;
+	transform: translateY(0);
+  }
+
 ----------------------------------------------------------------*/
 .banner{ margin-bottom: 8.125rem }
 .banner-hed{ font-size: 5.3125rem; line-height:5rem  }
@@ -126,6 +137,15 @@ svg,img { max-width: 100%; height: auto; }
 .projects-loop section{ margin-top: 5.875rem; margin-bottom: 5.875rem; }
 .projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #ff944c;}
 .projects-loop section span{font-size: 1rem; font-weight: 400; }
+
+.project-tile {opacity: 0;
+	transform: translateY(30px);
+	transition: all 0.6s ease-in-out;}
+
+	.project-tile.visible {
+		opacity: 1;
+		transform: translateY(0);
+	  }
 
 .email-section{padding: 7.5rem 0; background-color: #ff944c; text-align: center;}
 .email-section h2{ font-size: 3.75rem;color: #ffffff; margin-bottom: 1.875rem }
@@ -183,3 +203,38 @@ svg,img { max-width: 100%; height: auto; }
 .banner figure{ margin-right: 1.875rem }
 
 }
+
+mark {
+	--color1: #ff944c;
+	--color2: #ff944c;
+	--height: 75%;    
+	all: unset;
+	background-image: linear-gradient(var(--color1), var(--color2));
+	background-position: 0 100%;
+	background-repeat: no-repeat;
+	background-size: 0 var(--height);
+	animation: highlight 900ms 1 ease-out;
+	animation-fill-mode: forwards;
+	animation-play-state: paused; 
+  }
+  @keyframes highlight {
+	to {
+	  background-size: 100% var(--height);
+	}
+  }
+  main {
+	width: min(50ch, 80%);
+	margin: 0 auto;
+	padding: 100px 0;
+  }
+
+  .banner {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+  
