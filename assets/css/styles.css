@@ -14,7 +14,7 @@
 	--margin-120:7.5rem;   
 }
 html {font-family: 'Poppins', sans-serif;background-color:#2A2A2A}
-body {font-family: 'Poppins', sans-serif;overflow-x: hidden; background-color:#2A2A2A; font-weight:400;font-style: normal; color: #FFF; font-size: var(--font_14)}
+body {font-family: 'Poppins', sans-serif;overflow-x: hidden; background-color:#ffffff; font-weight:400;font-style: normal; color: #000; font-size: var(--font_14)}
 a,a:hover,a:focus,i,input,button,input:focus,.transition {text-decoration: none;outline: none;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease;box-shadow: none;}
 a{color: #000}
 iframe {border: 0;outline: none;}
@@ -29,7 +29,7 @@ font-family: 'Poppins', sans-serif;}
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {background-color: transparent;background-image: none;color:#000;}
 
 h1,h2,h3,h4,h5,h6 {font-family: 'DM Serif Display', serif;}
-figure{ margin: 0 }
+figure{ margin: 0; font-family: 'DM Serif Display', serif; }
 svg,img { max-width: 100%; height: auto; }
 
 
@@ -68,7 +68,7 @@ svg,img { max-width: 100%; height: auto; }
 }
   
   .logo a:hover {
-	color: #CBFE00;
+	color: #ff944c;
 	transition: all 0.5s ease;
   }
 
@@ -83,7 +83,7 @@ svg,img { max-width: 100%; height: auto; }
 }
 
 .section {
-	color: #CBFE00;
+	color: #ff944c;
 	font-weight: 600;
 	font-size: 1.125rem;
 	text-align: center;
@@ -91,48 +91,48 @@ svg,img { max-width: 100%; height: auto; }
 }
 
 .menu a:hover {
-	color: #ffffff;
+	color: #000;
 }
 
 ----------------------------------------------------------------*/
 .banner{ margin-bottom: 8.125rem }
 .banner-hed{ font-size: 5.3125rem; line-height:5rem  }
-.image-shadow{box-shadow:30px 30px #C7F900;}
+.image-shadow{box-shadow:30px 30px #ff944c;}
 
 .social{ list-style: none; display: flex; align-items: center;margin-top: 2.5rem }
 .social li{ margin-right: 15px }
 .social li:alst-child{ margin-right: 0 }
-.social a{ width: 30px; height: 30px; background-color: #CBFE00; border-radius: 100%; text-align: center; display: flex; justify-content: center; align-items: center; font-size:1.25rem; color:#2A2A2A }
-.social li:hover a{background-color: #ffffff; color:#000;	transition: all 0.5s ease;}
+.social a{ width: 30px; height: 30px; background-color: #ff944c; border-radius: 100%; text-align: center; display: flex; justify-content: center; align-items: center; font-size:1.25rem; color:#ffffff }
+.social li:hover a{background-color: #000; color:#ffffff;	transition: all 0.5s ease;}
 
 .banner figure{width: 370px; position: relative;}
 .banner figure figcaption{ color: #FFF; font-size:1.875rem; position: absolute; bottom: 0; width: 100%; text-align: center; padding-bottom:2.5rem  }
 
-.resume-section{ background-color: #000; padding: 7.5rem 0 }
+.resume-section{ background-color: #fff0e7; padding: 7.5rem 0 }
 .resume-section h2{ font-size: 2.5rem; line-height: 3.375rem; width: 100%;max-width: 80%;margin: 0 }
-.resume-section p{ color:#9C9C9C; font-size: 1rem; line-height: 1.875rem }
+.resume-section p{ color:#6f6f6f; font-size: 1rem; line-height: 1.875rem }
 
 .projects-section{padding: 7.5rem 0 }
 .projects-section h2{ font-size: 2.5rem; line-height: 3.375rem; width: 100%;max-width:40%;margin: 0}
-.projects-section h2 span{ display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; color: #CBFE00; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
-.projects-section h3:hover{color:#ffffff; transition: all 0.5s;}
+.projects-section h2 span{ display: block; font-family: 'Poppins', sans-serif; text-transform: uppercase; color: #ff944c; font-weight: 600; letter-spacing: 3px; font-size: 0.75rem; margin-bottom: 0.625rem}
+.projects-section h3:hover{color:#000; transition: all 0.5s;}
 
 .projects-listing-section{ margin-top:5rem }
 .projects-loop figure{ margin-right: 60px; position: relative; }
-.projects-loop:hover figure img.image-shadow{box-shadow:20px 20px #C7F900;}
-.link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 1.75rem; height: 1.75rem; border-radius: 3px; background-color: #000; display: block; justify-content: center; align-items: center; color: #CBFE00; font-size: 1.125rem; text-align: center; opacity: 0 }
+.projects-loop:hover figure img.image-shadow{box-shadow:20px 20px #ff944c;}
+.link-button{ position: absolute; right:0.4375rem; top:0.4375rem; width: 1.75rem; height: 1.75rem; border-radius: 3px; background-color: #ff944c; display: block; justify-content: center; align-items: center; color: #ffffff; font-size: 1.125rem; text-align: center; opacity: 0 }
 .projects-loop:hover .link-button{ opacity: 1 }
-.link-button:hover{background-color: #ffffff; color:#000;	transition: all 0.5s ease;}
+.link-button:hover{background-color: #000; color:#ffffff;	transition: all 0.5s ease;}
 .projects-loop section{ margin-top: 5.875rem; margin-bottom: 5.875rem; }
-.projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #CBFE00;}
+.projects-loop section h3{font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.35rem; margin-bottom: 1rem; color: #ff944c;}
 .projects-loop section span{font-size: 1rem; font-weight: 400; }
 
-.email-section{padding: 7.5rem 0; background-color: #CBFE00; text-align: center;}
-.email-section h2{ font-size: 3.75rem;color: #000; margin-bottom: 1.875rem }
+.email-section{padding: 7.5rem 0; background-color: #ff944c; text-align: center;}
+.email-section h2{ font-size: 3.75rem;color: #ffffff; margin-bottom: 1.875rem }
 .email-section a{ font-size:1.25rem; font-weight: 500; text-decoration: none;  }
-.email-section h2:hover{color:#ffa464;	transition: all 0.5s ease;}
+.email-section h2:hover{color:#000;	transition: all 0.5s ease;}
 
-.footer{ padding: 2.5rem 0; text-align: center; color: #CECECE; font-size: 1.25rem }
+.footer{ padding: 2.5rem 0; text-align: center; color: #6f6f6f; font-size: 1.25rem }
 .footer a{color: #CECECE }
 .footer a:hover{color: #CECECE; text-decoration: underline; }
 
@@ -157,7 +157,7 @@ svg,img { max-width: 100%; height: auto; }
 	.banner .container{ position: relative; padding-bottom: 90px }
 	.social{ position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); }
 	.banner figure{ width: 90%; margin: 0 auto; margin-top: 40px }
-	.image-shadow {box-shadow:20px 20px #c7f900;}
+	.image-shadow {box-shadow:20px 20px #ff944c;}
 	.banner {margin-bottom: 3.5rem;}
 	.resume-section,.projects-section,.email-section{ padding: 3.5rem 0 }
 	.resume-section h2,.projects-section h2{ max-width: 100% }
