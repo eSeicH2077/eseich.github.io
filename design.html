@@ -27,21 +27,21 @@
           <a href="index.html"><img src="assets/images/logo.png" alt="Logo" /><img class="topimg" src="assets/images/logo-hover.png" alt="Logo Hover" /></a>
         </div>
         <div class="menu">
-          <a href="video.html" class="section">Film and Video</a>
-          <a href="music.html" class="section">Music Production</a>
-          <a href="design.html" class="section">Graphic Design</a>
+          <a href="video.html" class="section section-item">Film and Video</a>
+          <a href="music.html" class="section section-item">Music Production</a>
+          <a href="design.html" class="section section-item">Graphic Design</a>
         </div>
       </div>
     </header>
 
-    <section class="banner">
-      <div class="container">
+    <section class="banner section-item" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container section-item">
         <div class="row">
           <div class="col-12 col-sm-12  col-md-6  col-lg-7  col-xl-7  col-xxl-7 banner-left">
               <h1 class="banner-hed">
-                I’m a Designer.
+                I’m a <mark>Designer</mark>.
               </h1>
-              <ul class="social">
+              <ul class="social section-item">
                 <li><a href="https://albumcomplete.com/" target="_blank"><i class="ri-external-link-line"></i></a></li>
               </ul>
           </div>
@@ -50,11 +50,11 @@
     </section>
 
 
-    <section class="projects-section">
-      <div class="container">
-          <h2><span>projects</span>Check out a few of my recent project.</h2>
+    <section class="projects-section section-item" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container section-item">
+          <h2><span>projects</span><mark>Check out</mark> a few of <mark>my recent project</mark>.</h2>
           <div class="row projects-listing-section">
-            <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop">
+            <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop project-tile">
               <figure>
                 <a href="https://albumcomplete.com" class="link-button" target="_blank"><i class="ri-external-link-line"></i></a>
                 <img src="assets/images/album-1293231.png" class="image-shadow transition">
@@ -66,7 +66,7 @@
                 <span>Owner / Founder.<br><br>Album Complete is a online music mastering and album cover design service. <br><br>Most of my works portfolio of album cover designs can be found here.</span>
               </section>
           </div>
-              <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop">
+              <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop project-tile">
                   <figure>
                     <a href="https://www.instagram.com/_eseich/" class="link-button" target="_blank"><i class="ri-external-link-line"></i></a>
                     <img src="assets/images/In-God-We-(Used-To)-Trust.png" class="image-shadow transition">
@@ -83,7 +83,7 @@
                     </span>
                   </section>
               </div>
-              <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop">
+              <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop project-tile">
                 <figure>
                   <a href="https://www.youtube.com/@PUBGLaboratories" class="link-button" target="_blank"><i class="ri-external-link-line"></i></a>
                   <img src="assets/images/image (8).png" class="image-shadow transition">
@@ -97,7 +97,7 @@
                   </span>
                 </section>
             </div>
-            <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop">
+            <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop project-tile">
                 <figure>
                   <a href="https://www.youtube.com/@midiist8965" class="link-button" target="_blank"><i class="ri-external-link-line"></i></a>
                   <img src="assets/images/image (5).png" class="image-shadow transition">
@@ -114,7 +114,7 @@
                   </span>
                 </section>
             </div>  
-            <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop">
+            <div class="col-12 col-sm-12  col-md-4  col-lg-4  col-xl-4  col-xxl-4 projects-loop project-tile">
                 <figure>
                   <a href="https://www.youtube.com/playlist?list=PLlnuXHrsZs634emojpNPC-KcXLmpIPp68" class="link-button" target="_blank"><i class="ri-external-link-line"></i></a>
                   <img src="assets/images/New-eSeicH-Square.png" class="image-shadow transition">
@@ -147,4 +147,13 @@
     </footer>
 
   </body>
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200, // controls animation speed globally
+      once: true,     // animation happens only once
+      offset: 200,    // how far the element needs to be from the viewport to trigger
+    });
+  </script>
 </html>
